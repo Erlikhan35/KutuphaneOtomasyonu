@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginBottom="16dp"
+        android:text="Kitap ekle"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="395dp"
+        android:layout_height="363dp"
+        android:layout_marginBottom="265dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home">
+
+        <EditText
+            android:id="@+id/Txt_ktpad"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="368dp"
+            android:layout_height="53dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Kitap adı:"
+            android:hyphenationFrequency="normal"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColorHint="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Txt_yazarad"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="371dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Yazar adı:"
+            android:hyphenationFrequency="normal"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Txt_yayinevi"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Yayın evi:"
+            android:hyphenationFrequency="normal"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Txt_syfsayi"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="371dp"
+            android:layout_height="57dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Sayfa sayısı:"
+            android:hyphenationFrequency="normal"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Txt_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Kategori:"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="209dp"
+        android:layout_height="59dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/text_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/benimRenk"
+            android:onClick="Yazargit"
+
+            android:paddingLeft="40dp"
+            android:shadowColor="@color/benimRenk"
+            android:text="Yazar ekle"
+            app:icon="@drawable/baseline_person_24" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

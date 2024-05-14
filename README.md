@@ -1,11 +1,11 @@
 # KutuphaneOtomasyonu
 Uygulamamdan görüntüler;
-![Splash ekrani](splashscreen.jpg)  
+![Splash ekrani](OtomasyonResimler/splashscreen.jpg)  
 
-![kayit ekrani](kayitscreen.jpg)
+![kayit ekrani](OtomasyonResimler/kayitscreen.jpg)
 
-![kitap ekleme](kitapekle.jpg)
+![kitap ekleme](OtomasyonResimler/kitapekle.jpg)
 
-![kitapliste](kitapliste.jpg)
+![kitapliste](OtomasyonResimler/kitapliste.jpg)
 
-![yazar](yazar.jpg)
+![yazar](OtomasyonResimler/yazar.jpg)
